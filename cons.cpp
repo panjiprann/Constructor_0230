@@ -7,6 +7,16 @@ class mahasiswa
         static int nim;
         int id;
         string nama;
-        
+
+        void setID();
+
+        void printALL();
+
+        mahasiswa(string pnama)
+        {
+            nama = pnama;
+            setID();
+
+        }
     
-}
+};
