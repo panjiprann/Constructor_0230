@@ -32,8 +32,8 @@ int main(){
 
     mahasiswa mhs1;
     mahasiswa mhs2(20);
-    mahasiswa mhs3("saya 13");
-    mahasiswa mhs4(30, "kamu 15");
+    mahasiswa mhs3("dika 13");
+    mahasiswa mhs4(30, "haviz 15");
 
     mhs1.cetak();
     mhs2.cetak();
