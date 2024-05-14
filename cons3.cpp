@@ -1,42 +1,39 @@
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<string>
 using namespace std;
 
-class Mahasiswa
-{
+class mahasiswa{
     public:
-        int nim;
-        string nama;
+    int nim;
+    string nama;
 
     public:
-        Mahasiswa()
-        {
-            nim = 0;
-            nama = "";
+    mahasiswa(){
+        nim = 0;
+        nama = "";
+    };
+    mahasiswa(int inim){
+            nim = inim;
+        }
+    mahasiswa(string inama){
+            nama = inama;
+    };
+    mahasiswa(int inim, string inama){
+            nim = inim;
+            nama = inama;
         };
-
-        Mahasiswa(int iNim)
-        {
-            nim = iNim;
-        };
-        Mahasiswa(int iNim, string iNama)
-        {
-            nim = iNim;
-            nama = iNama;
-        };
-        void cetak(){
-            cout << "NIM : " << nim << endl;
-            cout << "Nama : " << nama << endl;
-            cout << endl;
-        };
+void cetak(){
+    cout << "NIM = " << nim << endl;
+    cout << "Nama = " << nama << endl;
+    cout << endl;
+    };
 };
+int main(){
 
-int main()
-{
-    Mahasiswa mhs1;
-    Mahasiswa mhs2(20);
-    Mahasiswa mhs3("dika");
-    Mahasiswa mhs4(30, "pahad");
+    mahasiswa mhs1;
+    mahasiswa mhs2(20);
+    mahasiswa mhs3("saya 13");
+    mahasiswa mhs4(30, "kamu 15");
 
     mhs1.cetak();
     mhs2.cetak();
@@ -44,4 +41,5 @@ int main()
     mhs4.cetak();
 
     return 0;
+
 }
