@@ -35,4 +35,20 @@ void mahasiswa::printALL()
     cout << endl;
 }
 
+int main()
+{
+    mahasiswa mhs1("farhad 15");
+    mahasiswa mhs2("babe");
+    mahasiswa mhs3("havis papua");
+    mahasiswa mhs4("ilam");
+
+   
+    mhs1.printALL();
+
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+    return 0;
+}
+
 
