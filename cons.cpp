@@ -21,7 +21,7 @@ class mahasiswa
     
 };
 
-int mahasiswa::setID()
-{
-    
-}
+int mahasiswa::nim = 230;
+
+
+
