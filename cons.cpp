@@ -20,3 +20,8 @@ class mahasiswa
         }
     
 };
+
+int mahasiswa::setID()
+{
+    
+}
